@@ -1,0 +1,112 @@
+body{
+    background-color: whitesmoke;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/589/026/original/aesthetic-sage-green-background-free-vector.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+/* Style header with green background and padding */
+header{
+    background-color: #8cb576;
+    overflow: hidden;
+    padding: 20px 10px;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+.logo{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+/* style header links */
+header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+
+
+}
+
+/* fixed header and footer */
+header, footer{
+    position: fixed;
+}
+
+/* styling logo link */
+header a.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*  change background color when mouse hover over */
+header a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/* style active/current link */
+header a.active{
+    color:  #8cb576;
+    /* background-color: dodgerblue; */
+}
+
+
+/* Float links to the right */
+.nav-links{
+    float: right;  
+    color: white;
+}
+
+/* add media queries when screen decreases and stack links on top of each other */
+@media screen and (max-width: 500px)
+{
+    header a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .nav-links{
+        float: none;
+    }
+}
+
+* {
+    margin:  auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.introduction{
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    top: 200px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.contact{
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    top: 200px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    
+}

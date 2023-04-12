@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: #8cb576;
     background-image: url("https://static.vecteezy.com/system/resources/previews/011/589/026/original/aesthetic-sage-green-background-free-vector.jpg");
     min-height: 600px;
     background-position: center;
@@ -100,13 +100,93 @@ header a.active{
 }
 
 .contact{
-    box-sizing: border-box;
-    padding: 40px;
-    text-align: center;
-    width: 70%;
-    position: relative;
-    top: 200px;
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+    justify-content: center;
     
+}
+
+.column{
+    flex: 50%;
+    height: 1000px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact_statement{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+
+    /* background-color: #f2f2f2; */
+    text-align: center;
+
+}
+
+.info_form{
+    padding: 100px;
+    padding-top: 115px;
+    height: 550px;
+    width: 100%;
+    background-color: #8cb576;
+    border-radius: 15%;  
+    text-align: center;
+
+}
+
+
+h3{
+    text-align: center;
+
+}
+
+.input-form{
+    position: relative;
+    height: 37px;
+
+}
+
+input[type=text]{
+    width: 100%;
+    padding:15px;
+    margin: 5px 0 22px 0;
+    border:none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=text]:focus{
+    background-color: #f0eeee;
+    outline: none;
+}
+
+
+.enter-btn{
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    background-color: #151111;
+    color: #c8f3a7;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    /* margin-bottom: 2rem; */
+
+}
+
+.enter-btn:hover{
+    background-color: #185836;
+
+}
+
+textarea{
+    width:100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    resize: none;
 }

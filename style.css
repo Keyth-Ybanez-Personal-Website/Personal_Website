@@ -139,11 +139,11 @@ h3{
 
 }
 
-.input-form{
+/* .input_form{
     position: relative;
-    height: 37px;
+    height: 37px; */
 
-}
+
 
 input[type=text]{
     width: 100%;

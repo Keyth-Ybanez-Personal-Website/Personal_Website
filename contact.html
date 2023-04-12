@@ -27,33 +27,29 @@
             Say hi and talk to you soon. </p>
         </div>
         <div class="column info_form">
-            <form action="" class="sign-in">
-                <div class="connect_prompt">
-                    <h2>Stay Connected</h2>
-                    <br>
+            <div class="connect_prompt">
+                <h2>Stay Connected</h2>
+                <br>
 
-                </div>
-                <div class="input-form">
-                    <label for="name"></label>
+            </div>
+            <form action="https://formspree.io/f/xgebpnww" method="POST" class="sign-in" >
+                <label for="name"></label>
                     <input type="text"
                             class="input-field"
                             id="name"
                             placeholder="Name"
+                            name="name"
                             required/>
-                </div>
-                <br>
-                <div class="input-form">
-                    <label for="email"></label>
+                <label for="email"></label>
                     <input type="text" 
                             class="input-field" 
                             id="email"
                             placeholder="Email"
+                            name="email"
                             required/>
-                </div>
-                <br><br>
+                
                 <textarea name="comment" form="usrform"></textarea>
                 <br><br>
-
                 <input type="submit" value="Enter"class="enter-btn">
 
             </form>
